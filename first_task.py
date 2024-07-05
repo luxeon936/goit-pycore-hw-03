@@ -3,6 +3,9 @@ from datetime import datetime
 def get_days_from_today(date: str) -> int:
     """
     Calculates time delta between now and date
+
+    Returns:
+        Days between dates
     """
     date_now = datetime.now()
     try:
